@@ -8,7 +8,7 @@ body{background-color: lightpink;
 .subtit{color: purple;font-size: 16; text-decoration: underline;}
 h1{text-decoration: underline;}
 
-header{background-image:url(../imagenes/fondo8.jpg); height: 168px; background-repeat: no-repeat; background-color: white; border: 5px white solid; margin-top: 10px;}
+header{background-image:url(../imagenes/fondo8.jpg); height: 168px ; width: 200% ; background-repeat: no-repeat; background-color: white; border: 5px white solid; margin-top: 10px;}
 nav{background-color: lightpink; font-weight: bold;}
 section
 .alfajor{width: 23.3%;}
