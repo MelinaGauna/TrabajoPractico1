@@ -3,8 +3,11 @@ body{background-color: lightpink;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: purple;font-size: 14; text-align: center;}
-.titulo{color: purple;font-size: 20; text-decoration: underline;}
+  color: purple;font-size: 14; text-align: center; font-family: 'Trispace', sans-serif;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+.titulo{color: purple;font-size: 20; text-decoration: underline; font-family: 'Freehand', cursive;}
 .subtit{color: purple;font-size: 16; text-decoration: underline;}
 h1{text-decoration: underline;}
 
@@ -30,16 +33,18 @@ header{background-image:url(../imagenes/fondo8.jpg); background-size: cover; bac
       align-items: flex-end;
       justify-content: space-around;
       }
-.iglila {width: 45px}
-.fblila {width: 45px}
-.twlila {width: 50px}
-.wsplila {width: 45px}
+.iglila {width: 35%; height: 40%;}
+.fblila {width: 70%;}
+.twlila {width: 56%;}
+.wsplila {width: 45%;}
 
 
-nav{background-color: lightpink; font-weight: bold;
+nav {background-color: lightpink;
     display: flex;
     justify-content: space-around;
     }
+
+a:hover{color: red;}
 
 section {background-size: cover;
     display: flex;
@@ -48,7 +53,9 @@ section {background-size: cover;
 
 .fotosalfajor{display: flex;
               justify-content: flex-end;
-            align-items: flex-start;}
+              align-items: flex-start;
+              justify-content: space-around;
+            }
 .alfajor{width: 23.3%;}
 .alfajor1{width: 12%}
 .alfajor2{height:30%; width: 22.2%}
@@ -63,7 +70,7 @@ section {background-size: cover;
 
 
 aside {background-color: lightpink; background-size: cover;}
-.yt{width: 45px}
+.yt{width: 5%}
 
 
 footer{background-color: lightblue; background-size: cover;
@@ -93,6 +100,13 @@ footer{background-color: lightblue; background-size: cover;
       flex-direction: column;
       }
 
+.iconos{
+      width: 60%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      }
+
 .info{
       display: flex;
       justify-content: flex-start;
@@ -101,7 +115,7 @@ footer{background-color: lightblue; background-size: cover;
       }
 
 
-.wsp{width: 40px;
+.wsp{width: 4.2%;
     position: fixed;
-    bottom: 10px;
-    right: 15px;}
+    bottom: 1%;
+    right: 0.6%;}
