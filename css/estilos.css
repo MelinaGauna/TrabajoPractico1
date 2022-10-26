@@ -111,6 +111,7 @@ footer{background-color: lightblue; background-size: cover;
       display: flex;
       justify-content: flex-start;
       align-self: center;
+      flex-wrap: wrap;
       width: 15%;
       }
 
