@@ -41,7 +41,10 @@ nav{background-color: lightpink; font-weight: bold;
     justify-content: space-around;
     }
 
-section {display: flex;justify-content: space-between; flex-direction: column;}
+section {background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;}
 
 .fotosalfajor{display: flex;
               justify-content: flex-end;
@@ -59,11 +62,11 @@ section {display: flex;justify-content: space-between; flex-direction: column;}
 
 
 
-aside {background-color: lightpink;}
+aside {background-color: lightpink; background-size: cover;}
 .yt{width: 45px}
 
 
-footer{background-color: lightblue;
+footer{background-color: lightblue; background-size: cover;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
