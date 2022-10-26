@@ -29,7 +29,8 @@ header{background-image:url(../imagenes/fondo8.jpg); background-size: cover; bac
     }
 
 .redes{width: 20%;
-    display: flex;
+      display: flex;
+      justify-content: flex-end;
       align-items: flex-end;
       justify-content: space-around;
       }
@@ -109,9 +110,7 @@ footer{background-color: lightblue; background-size: cover;
 
 .info{
       display: flex;
-      justify-content: flex-start;
-      align-self: center;
-      flex-wrap: wrap;
+      flex-direction: column;
       width: 15%;
       }
 
