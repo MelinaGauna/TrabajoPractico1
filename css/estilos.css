@@ -16,34 +16,37 @@ header{background-image:url(../imagenes/fondo8.jpg); background-size: cover; bac
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
 .logo{display: flex;
-      justify-content: flex-end;
-      width: 10%
+      justify-content: flex-start;
+      width: 25%
     }
 
 .titulo{display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
       flex-direction: column;
-      width: 33%
+      width: 50%
     }
 
-.redes{width: 20%;
+.redes{width: 25%;
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
       justify-content: space-around;
       }
-.iglila {width: 35%; height: 40%;}
-.fblila {width: 70%;}
-.twlila {width: 56%;}
-.wsplila {width: 45%;}
+.iglila {width: 50%;}
+.fblila {width: 50%;}
+.twlila {width: 50%;}
+.wsplila {width: 50%;}
 
 
 nav {background-color: lightpink;
     display: flex;
     justify-content: space-around;
     }
+
+a {text-decoration: none;}
 
 a:hover{color: red;}
 
@@ -57,11 +60,14 @@ section {background-size: cover;
               align-items: flex-start;
               justify-content: space-around;
             }
+
 .alfajor{width: 23.3%;}
 .alfajor1{width: 12%}
 .alfajor2{height:30%; width: 22.2%}
 .alfajor3{width: 11.75%}
 .alfajor4{width: 23.5%}
+.cerditos{height: 10%; width: 10.9%}
+.cerdito{height: 10%; width: 10%}
 
 .receta{display: flex;
         justify-content: flex-end;
@@ -70,7 +76,8 @@ section {background-size: cover;
 
 
 
-aside {background-color: lightpink; background-size: cover;}
+aside {background-color: lightpink; background-size: cover;
+      justify-content: center;}
 .yt{width: 5%}
 
 
@@ -119,3 +126,39 @@ footer{background-color: lightblue; background-size: cover;
     position: fixed;
     bottom: 1%;
     right: 0.6%;}
+
+
+@media (max-width: 991px) {
+      h1 {
+          color: pink;
+          background-color: purple;
+          }
+      h2 {
+          color: pink;
+          background-color: purple;
+          }
+      .titulo {
+          color: pink;
+          background-color: purple;
+          }
+      .subtit {
+          color: pink;
+          background-color: purple;
+          }
+        }
+
+
+@media (max-width: 767px) {
+      .alfajor, .alfajor1, .alfajor2, .alfajor3, .alfajor4 {
+      display: none;
+      }
+    }
+
+@media (min-width: 767px) {
+        .cerditos {
+        display: none;
+      }
+        .cerdito {
+          display: none;
+        }
+    }
