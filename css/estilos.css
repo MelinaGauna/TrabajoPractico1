@@ -128,7 +128,7 @@ footer{background-color: lightblue; background-size: cover;
     right: 0.6%;}
 
 
-@media (orientation:portrait)and(max-width: 991px) {
+@media (max-width: 991px) {
       h1 {
           color: pink;
           background-color: purple;
