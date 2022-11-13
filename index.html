@@ -6,11 +6,18 @@
     <meta name="keywords" content="receta, alfajores, caseros, santafesinos">
     <meta name="author" content="Fabrica Melina Gauna">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>TrabajoPractico</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
+    <title>TrabajoPractico</title>
+    <script>
+      alert("Bienvenidos al mejor sitio de alfajores argentinos")
+    </script>
+
+  </head>
+
+
+ <body>
 
 <header>
   <br>
@@ -47,7 +54,7 @@
 
     <br>
 
-    <section>
+    <section id="section">
       <div class="fotosalfajor">
       <img class="alfajor"src="./imagenes/alfajor.jpg" alt="fotoAlfajorSantafecino">
       <img class="cerditos"src="./imagenes/cerditos.jpg" alt="cerdito">
@@ -65,9 +72,16 @@
   </div>
 
   <br>
+  <br>
 <audio src="./musica/pista.mp3"controls autoplay>
 
 </audio>
+
+<br>
+<br>
+    <button onclick="inclusive()">Sitio Nocturno</button>
+<br>
+<br>
 <br>
 <p>Una receta facilísima de donde salen 12 alfajores rellenos de riquísimo dulce de leche argentino.</p>
 
@@ -76,7 +90,7 @@
   <div class="ingredientes"><center>
 
       <h1 class="violeta">Lista de ingredientes</h1>
-        <h2 class="subtit">Para la masa</h2>
+        <h2 class="subtit" id="subtit1">Para la masa</h2>
       <ul>
         <li>250gr de harina 0000</li>
         <li>4 yemas</li>
@@ -86,12 +100,12 @@
         <li>75ml de agua</li>
       </ul>
 
-      <h2 class="subtit">Relleno</h2>
+      <h2 class="subtit" id="subtit2">Relleno</h2>
       <ul>
         <li>Dulce de leche repostero.</li>
       </ul>
 
-      <h2 class="subtit">Para la cobertura</h2>
+      <h2 class="subtit" id="subtit3">Para la cobertura</h2>
       <ul>
         <li>1 clara</li>
         <li>250gr de azucar impalpable</li>
@@ -103,7 +117,7 @@
     <div class="procedimiento"><center>
 
     <h1 class="violeta">Procedimiento</h1>
-    <h2 class="subtit">Para las tapas:</h2>
+    <h2 class="subtit" id="subtit4">Para las tapas:</h2>
     <ol>
       <li>Poner en un bol la harina y las yemas.</li>
       <li>Agregar la manteca pomada y luego una cucharada de alcohol para darle textura crocante a las tapas.</li>
@@ -116,13 +130,13 @@
       <li>Dejar enfriar antes de armar</li>
     </ol>
     <br>
-    <h2 class="subtit">Para el armado:</h2>
+    <h2 class="subtit" id="subtit5">Para el armado:</h2>
     <ol>
       <li>Colocar dulce de leche repostero entre capa y capa con una manga</li>
       <li>Lograr un alfajor de 3 capas</li>
     </ol>
     <br>
-    <h2 class="subtit">Para el glaseado</h2>
+    <h2 class="subtit" id="subtit6">Para el glaseado</h2>
     <ol>
       <li>Colocar y mezclar una clara y 3 cucharadas de azucan impalpable en un bowl</li>
       <li>Llevarlo al microondas por 10 segundos</li>
@@ -139,8 +153,8 @@
 
 
     <br>
-    <aside>
-      <h2 class="subtit">Te dejo el paso a paso en video</h2>
+    <aside id="aside">
+      <h2 class="subtit" id="subtit7">Te dejo el paso a paso en video</h2>
       <br>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/jsyCgqmoMkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <h2>Si te gusto el contenido, seguinos en nuestro canal de YouTube</h2>
@@ -149,7 +163,7 @@
     </aside>
 
 
-  <section>
+  <section id="section1">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-3">
@@ -210,7 +224,7 @@
 </section>
 
 
-<footer>
+<footer id="footer">
 
 <div class="maps">
   <div class="seguinos">
@@ -238,6 +252,7 @@
   <h4>Realizado por Melina Gauna</h4>
   <h4>Estudiante de FrontEnd</h4>
   <h4>Potrero Digital</h4>
+  <button onclick="copy()">Copyright ©</button>
 
 
 </div>
@@ -247,5 +262,9 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="./js/javascript.js">
+    </script>
+
 </body>
 </html>
